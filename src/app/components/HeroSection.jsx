@@ -24,7 +24,7 @@ const HeroSection = () => {
               sequence={[
                 "My Company",
                 1000,
-                "Ajay Enterprises",
+                "Sun Enterprises",
                 1000,
                 "Pvt Ltd",
                 1000,
@@ -35,9 +35,7 @@ const HeroSection = () => {
               repeat={Infinity}
             />
           </h1>
-          <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, veritatis?
-          </p>
+         
           <div>
             <Link
               href="/restrent/index.html"

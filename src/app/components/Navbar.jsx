@@ -19,7 +19,6 @@ const navLinks = [
     path: "#contact",
   },
 ];
-
 const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
 
@@ -30,7 +29,7 @@ const Navbar = () => {
           href={"/"}
           className="text-2xl md:text-5xl text-white font-semibold"
         >
-         Sangrila La Restaurant
+         Shangri-La Restaurant
         </Link>
         <div className="mobile-menu block md:hidden">
           {!navbarOpen ? (
